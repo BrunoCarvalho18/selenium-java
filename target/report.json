@@ -1,0 +1,67 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language:pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Deve inserir uma conta com sucesso",
+        "description": "",
+        "id": "cadastro-de-contas;deve-inserir-uma-conta-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "InserirContasSteps.estouAplicacao()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "preencho os campos",
+            "match": {
+              "location": "InserirContasSteps.preenchoCampos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "a conta é inserida com sucesso",
+            "match": {
+              "location": "InserirContasSteps.validaContaInseridacomSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@CadastrarConta"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "\nComo um usuário \nGostaria de cadastrar contas\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "cadastro_conta.feature"
+  }
+]
