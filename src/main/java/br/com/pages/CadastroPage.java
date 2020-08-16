@@ -1,7 +1,8 @@
-package pages;
+package br.com.pages;
 
 import org.openqa.selenium.By;
-import defaultpackage.AcoesUtils;
+
+import br.com.defaultpackage.AcoesUtils;
 
 public class CadastroPage {
 

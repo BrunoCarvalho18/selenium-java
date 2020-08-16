@@ -1,4 +1,4 @@
-package defaultpackage;
+package br.com.defaultpackage;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,13 +1,16 @@
-package steps;
+package br.com.steps;
 
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
-import defaultpackage.AcoesUtils;
+
 import com.github.javafaker.Faker;
+
+import br.com.defaultpackage.AcoesUtils;
+import br.com.defaultpackage.Driver;
+import br.com.pages.CadastroPage;
+
 import org.openqa.selenium.WebDriver;
-import defaultpackage.Driver;
-import pages.CadastroPage;
 
 public class InserirContasSteps {
 

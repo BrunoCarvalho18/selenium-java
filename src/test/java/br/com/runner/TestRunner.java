@@ -1,4 +1,4 @@
-package br.com.selenium_cucumber_java;
+package br.com.runner;
 
 
 
